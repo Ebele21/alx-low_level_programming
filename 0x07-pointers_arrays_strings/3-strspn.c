@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * _strspn - Gets the length of a prefix substring
  * @s: The string to search
@@ -24,5 +23,5 @@ break;
 if (!accept[j])
 break;
 }
- return (count);
+return (count);
 }
