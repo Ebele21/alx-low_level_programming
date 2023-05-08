@@ -22,8 +22,10 @@ for (j = 1; needle[j]; j++)
 if (haystack[i + j] != needle[j])
 break;
 }
+(!needle[j]);
 return (haystack + i);
 }
 }
 return (NULL);
 }
+
